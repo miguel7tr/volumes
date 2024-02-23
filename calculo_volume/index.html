@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="principal.js"defer></script>
+    <script src="classe.js"defer></script>
+    <title>Cálculo de Volume</title>
+</head>
+<body>
+    <h1>Cálculo de Volumes</h1>
+
+    <label for="raio">Insira o raio da figura:</label><br><br>
+    <input type="number" id="raio"><br><br>
+    <label for="comprimento">Insira o comprimento da figura:</label><br><br>
+    <input type="number" id="comprimento"><br><br>
+    <label for="altura">Insira o altura da figura:</label><br><br>
+    <input type="number" id="altura"><br><br>
+    <label for="largura">Insira o largura da figura:</label><br><br>
+    <input type="number" id="largura"><br><br>
+
+    <label for="volumes">Qual figura você quer calcular o volume?</label><br><br>
+<select name="volumes" id="volumes">
+  <option value="esfera">Esfera</option>
+  <option value="cilindro">Cilíndro</option>
+  <option value="cone">Cone</option>
+  <option value="prisma">Prisma</option>
+  <option value="piramide">Pirâmide</option>
+
+  <div id="respostaEsfera"></div><br>
+  <div id="respostaCilindro"></div><br>
+  <div id="respostaCone"></div><br>
+  <div id="respostaPrisma"></div><br>
+  <div id="respostaPiramide"></div><br>
+</select>
+<button id="calcularr">Calcular</button><br>
+</body>
+</html>
